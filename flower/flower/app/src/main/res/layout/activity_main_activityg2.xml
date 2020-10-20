@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:onClick="kuwait"
+    android:background="#FBFBFB"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="352dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="442dp"
+        tools:srcCompat="@drawable/googlemaps" />
+
+    <TextView
+        android:id="@+id/textView17"
+        style="@android:style/Widget.TextView"
+        android:layout_width="247dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="362dp"
+        android:background="#FFFAE3"
+        android:onClick="kuwait"
+        android:text="اضغط هنا للانتقال للتطبيق"
+        android:textColor="#717FCF"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
